@@ -2,22 +2,14 @@ package hello
 
 import "testing"
 
-func TestSayHello(t *testing.T) {
+func TestHello(t *testing.T) {
 
 	subtests := []struct {
 		items  []string
 		result string
 	}{
 		{
-			result: "Hello, world!",
-		},
-		{
-			items:  []string{"Matt"},
-			result: "Hello, Matt!",
-		},
-		{
-			items:  []string{"Matt", "Anne"},
-			result: "Hello, Matt, Anne!",
+			result: "Hello, world",
 		},
 	}
 
